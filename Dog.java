@@ -21,6 +21,56 @@ public class Dog {
         System.out.println(name + " says: bark!");
     }
 
+    public void sleep() {
+        System.out.println(name + " is sleeping.");
+    }
+
+    public void eat() {
+        System.out.println(name + " is eating.");
+    }
+
+    public void walk() {
+        System.out.println(name + " is walking.");
+    }
+
+    public void sit() {
+        System.out.println(name + " is sitting.");
+    }
+
+    // getters and setters
+    public String getName()  {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getAge()  {
+        return age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public String getColor()  {
+        return color;
+    }
+
+    public void setColor(String color) {
+        this.color = color;
+    }
+
+    public int getWeight()  {
+        return weight;
+    }
+
+    public void setWeight(int weight) {
+        this.weight = weight;
+    }
+
+
 
 
 }
