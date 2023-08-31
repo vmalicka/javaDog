@@ -7,6 +7,7 @@ public class Dog {
     private int weight;
     private String breed;
 
+
     //constructor
     public Dog(String name, int age, String color, int weight, String breed){
         this.name = name;
