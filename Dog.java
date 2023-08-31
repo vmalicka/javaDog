@@ -71,6 +71,15 @@ public class Dog {
         this.weight = weight;
     }
 
+    // main method (for testing)
+    public static void main(String[] args) {
+        Dog myDog = new Dog("Chloe",5,"Yellow");
+        myDog.bark();
+        myDog.eat();
+        myDog.sleep();
+        myDog.walk();
+        myDog.sit();
+    }
 
 
 
