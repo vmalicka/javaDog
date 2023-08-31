@@ -13,7 +13,7 @@ public class Dog {
         this.age = age;
         this.color = color;
         this.weight = weight;
-        this. breed = breed;
+        this.breed = breed;
     }
 
     // methods
