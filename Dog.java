@@ -81,6 +81,11 @@ public class Dog {
         myDog.sit();
     }
 
+    System.out.println("name: " + myDog.getname());
+    System.out.println("age: " + myDog.getage());
+    System.out.println("color: " + myDog.getcolor());
+
+
 
 
 }
