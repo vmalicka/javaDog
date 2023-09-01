@@ -1,8 +1,16 @@
 public class Main {
+    public static void main(String[] args) {
+        Dog myDog = new Dog("Chloe",5,"Yellow", 10, "German Shepward");
+        myDog.bark();
+        myDog.eat();
+        myDog.sleep();
+        myDog.walk();
+        myDog.sit();
 
-    public static void main(String[] args){
-        Dog dog1 = new Dog(args[0], 5,"yellow");
-        System.out.println("Dog Name's: " + dog1.getName());
-
+        System.out.println("name: " + myDog.getName());
+        System.out.println("age: " + myDog.getAge());
+        System.out.println("color: " + myDog.getColor());
+        System.out.println("breed: " + myDog.getBreed());
     }
+
 }

@@ -9,7 +9,7 @@ public class Dog {
 
 
     //constructor
-    public Dog(String name, int age, String color, int weight, String breed){
+    public Dog(String name, int age, String color, int weight, String breed) {
         this.name = name;
         this.age = age;
         this.color = color;
@@ -18,7 +18,7 @@ public class Dog {
     }
 
     // methods
-    public void bark(){
+    public void bark() {
         System.out.println(name + " says: bark!");
     }
 
@@ -39,7 +39,7 @@ public class Dog {
     }
 
     // getters and setters
-    public String getName()  {
+    public String getName() {
         return name;
     }
 
@@ -47,7 +47,7 @@ public class Dog {
         this.name = name;
     }
 
-    public int getAge()  {
+    public int getAge() {
         return age;
     }
 
@@ -55,7 +55,11 @@ public class Dog {
         this.age = age;
     }
 
-    public String getColor()  {
+    public String getBreed() {
+        return breed;
+    }
+
+    public String getColor() {
         return color;
     }
 
@@ -63,29 +67,13 @@ public class Dog {
         this.color = color;
     }
 
-    public int getWeight()  {
+    public int getWeight() {
         return weight;
     }
 
     public void setWeight(int weight) {
         this.weight = weight;
     }
-
-    // main method (for testing)
-    public static void main(String[] args) {
-        Dog myDog = new Dog("Chloe",5,"Yellow");
-        myDog.bark();
-        myDog.eat();
-        myDog.sleep();
-        myDog.walk();
-        myDog.sit();
-    }
-
-    System.out.println("name: " + myDog.getname());
-    System.out.println("age: " + myDog.getage());
-    System.out.println("color: " + myDog.getcolor());
-
-
-
-
 }
+    // main method (for testing)
+
