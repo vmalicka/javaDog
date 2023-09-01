@@ -10,7 +10,7 @@ public class Main {
         System.out.println("name: " + myDog.getName());
         System.out.println("age: " + myDog.getAge());
         System.out.println("color: " + myDog.getColor());
-        System.out.println("breed: " + myDog.getBreed());
+        System.out.println("breed: " + Breed.Shepard);
 
 
         Dog myDog2 = new Dog("Scoobie",3,"Orange", 10, "Lab Mix");
@@ -23,7 +23,7 @@ public class Main {
         System.out.println("name: " + myDog2.getName());
         System.out.println("age: " + myDog2.getAge());
         System.out.println("color: " + myDog2.getColor());
-        System.out.println("breed: " + myDog2.getBreed());
+        System.out.println("breed: " + Breed.Lab);
 
         Dog myDog3 = new Dog("Hidie",7,"Black and White", 30, "Huskey");
         myDog3.bark();
@@ -35,7 +35,7 @@ public class Main {
         System.out.println("name: " + myDog3.getName());
         System.out.println("age: " + myDog3.getAge());
         System.out.println("color: " + myDog3.getColor());
-        System.out.println("breed: " + myDog3.getBreed());
+        System.out.println("breed: " + Breed.Husky);
 
     }
 

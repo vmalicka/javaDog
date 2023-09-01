@@ -75,5 +75,5 @@ public class Dog {
         this.weight = weight;
     }
 }
-    // main method (for testing)
+
 
