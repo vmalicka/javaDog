@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Dog myDog = new Dog("Chloe",5,"Yellow", 10, "German Shepward");
+        Dog myDog = new Dog("Chloe",5,"Yellow", 10, "German Shepard");
         myDog.bark();
         myDog.eat();
         myDog.sleep();
