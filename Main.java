@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Dog myDog = new Dog("Chloe", 5, "Yellow", 70, "German Shepard");
+        Dog myDog = new Dog("Chloe", 5, "Yellow", 70, "SHEPARD");
         myDog.bark();
         myDog.eat();
         myDog.sleep();
@@ -10,10 +10,10 @@ public class Main {
         System.out.println("name: " + myDog.getName());
         System.out.println("age: " + myDog.getAge());
         System.out.println("color: " + myDog.getColor());
-        System.out.println("breed: " + Breed.Shepard);
+        System.out.println("breed: " + Breed.SHEPARD);
 
 
-        Dog myDog2 = new Dog("Scoobie",3,"Orange", 10, "Lab Mix");
+        Dog myDog2 = new Dog("Scoobie",3,"Orange", 10, "LAB");
         myDog2.bark();
         myDog2.eat();
         myDog2.sleep();
@@ -23,9 +23,9 @@ public class Main {
         System.out.println("name: " + myDog2.getName());
         System.out.println("age: " + myDog2.getAge());
         System.out.println("color: " + myDog2.getColor());
-        System.out.println("breed: " + Breed.Lab);
+        System.out.println("breed: " + Breed.LAB);
 
-        Dog myDog3 = new Dog("Hidie",7,"Black and White", 30, "Huskey");
+        Dog myDog3 = new Dog("Hidie",7,"Black and White", 30, "HUSKEY");
         myDog3.bark();
         myDog3.eat();
         myDog3.sleep();
@@ -35,7 +35,7 @@ public class Main {
         System.out.println("name: " + myDog3.getName());
         System.out.println("age: " + myDog3.getAge());
         System.out.println("color: " + myDog3.getColor());
-        System.out.println("breed: " + Breed.Husky);
+        System.out.println("breed: " + Breed.HUSKEY);
 
     }
 

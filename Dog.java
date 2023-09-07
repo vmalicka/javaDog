@@ -19,7 +19,7 @@ public class Dog {
 
     // methods
     public void bark() {
-        System.out.println(name + " says: bark!");
+        System.out.println(name + " says: woof woof!");
     }
 
     public void sleep() {

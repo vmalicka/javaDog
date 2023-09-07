@@ -1,3 +1,7 @@
 public enum Breed {
-    Shepard, Husky, Bulldog, Poodle, Lab
+    SHEPARD,
+    HUSKEY,
+    BULDOG,
+    POODLE,
+    LAB
 }
